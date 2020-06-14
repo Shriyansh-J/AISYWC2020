@@ -255,4 +255,30 @@
       }
     });
   }
+
+  /* ----------------------------------------------------------- */
+  /*  Back to top
+	/* ----------------------------------------------------------- */
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+      $("#back-to-top").removeClass("vis-hid");
+    } else {
+      $("#back-to-top").addClass("vis-hid");
+    }
+  });
+
+  // scroll body to 0px on click
+  $("#back-to-top").on("click", function () {
+    $("#back-to-top").tooltip("hide");
+    $("body,html").animate(
+      {
+        scrollTop: 0,
+      },
+      800
+    );
+    return false;
+  });
+
+  $("#back-to-top").tooltip("hide");
 })(window.jQuery);
