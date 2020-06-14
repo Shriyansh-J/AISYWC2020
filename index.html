@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <title>Home | AISYWC 2018</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- Google fonts
+    ================================================== -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto+Slab|Comfortaa"
+      rel="stylesheet"
+    />
+
+    <!-- CSS
+    ================================================== -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/templatemo-lava.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  </head>
+  <body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a
+                href="index.html"
+                class="logo"
+                style="color: rgb(255, 255, 255);"
+              >
+                AISYWC
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section">
+                  <a href="#welcome" class="menu-item">Home</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#about" class="menu-item">About</a>
+                </li>
+                <li class="submenu">
+                  <a href="javascript:;">Program</a>
+                  <ul>
+                    <li>
+                      <a href="author_section/call_for_papers.html">Speakers</a>
+                    </li>
+                    <li>
+                      <a href="author_section/call_for_tutorial.html"
+                        >Schedule</a
+                      >
+                    </li>
+                    <li>
+                      <a href="author_section/MV_Chauhan.html">Welcome Guide</a>
+                    </li>
+                    <li>
+                      <a href="author_section/wie.html">Accommodation</a>
+                    </li>
+                    <li>
+                      <a href="author_section/wie.html">Team</a>
+                    </li>
+                    <li>
+                      <a href="author_section/wie.html">Events</a>
+                    </li>
+                    <li>
+                      <a href="author_section/wie.html">Code Of Conduct</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#sponsors" class="menu-item">Sponsors</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#sponsors" class="menu-item">Venue</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#sponsors" class="menu-item">Tickets</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#sponsors" class="menu-item">Contact</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#sponsors" class="menu-item">FAQ</a>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <!--  -->
+    <div class="welcome-area" id="welcome" style="height: 110vh;">
+      <!-- ***** Header Text Start ***** -->
+
+      <div class="header-text">
+        <div class="container">
+          <div class="row">
+            <!-- col-md-12 col-sm-12 col-xs-12 -->
+            <div
+              class="left-text col-12"
+              data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
+            >
+              <h1 style="color: azure; opacity: 0.8;">
+                All India Student/YP/WIE Congress<br />
+                <em style="color: #007bff; opacity: 0.6;">2020</em>
+              </h1>
+              <div class="main-date" style="padding: 0;">28-29 November</div>
+              <p
+                class="col-12"
+                style="margin-top: 0; padding: 0; font-size: 19px;"
+              >
+                Venue: Chitkara University, Chandigarh
+              </p>
+
+              <!-- <a href="#about" class="main-button-slider">KNOW US BETTER</a> -->
+              <a class="btn btn-outline-info dive-in" href="#video">
+                Dive In
+              </a>
+
+              <div
+                class="clock"
+                style="color: black; width: 100%; max-width: 100vw;"
+              >
+                <ul style="width: 100%; width: 100vw;">
+                  <li><span id="days"></span>Days</li>
+                  <li><span id="hours"></span>Hours</li>
+                  <li><span id="minutes"></span>Minutes</li>
+                  <li><span id="seconds"></span>Seconds</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ***** Header Text End ***** -->
+
+      <script>
+        const second = 1000,
+          minute = second * 60,
+          hour = minute * 60,
+          day = hour * 24;
+
+        let countDown = new Date("Dec 13, 2020 00:00:00").getTime(),
+          x = setInterval(function () {
+            let now = new Date().getTime(),
+              distance = countDown - now;
+
+            (document.getElementById("days").innerText = Math.floor(
+              distance / day
+            )),
+              (document.getElementById("hours").innerText = Math.floor(
+                (distance % day) / hour
+              )),
+              (document.getElementById("minutes").innerText = Math.floor(
+                (distance % hour) / minute
+              )),
+              (document.getElementById("seconds").innerText = Math.floor(
+                (distance % minute) / second
+              ));
+          }, second);
+      </script>
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+
+    <div id="video" style="text-align: center;">
+      <video controls="" poster="assets/images/nature.jpeg">
+        <source src="assets/video/sample.mp4" type="video/mp4" />
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+    </div>
+
+    <div class="homepage-next-events" id="faq" style="padding-top: 48px;">
+      <div id="faqbg">
+        <h2 class="faq-header">FAQ's</h2>
+
+        <div class="accordion">
+          <div class="accordion-item">
+            <a>
+              <h2>What is AISYWC?</h2>
+            </a>
+            <div class="content">
+              <p>
+                The flagship event of IEEE India Council, IEEE AISYWC has always
+                been a colloquium that brings together youth with professionals
+                and experts with their ideologies tallying up to be the best
+                exchange of wisdom and acuity. Founded in 2000, the AIS(YW)C has
+                grown over the years to become the biggest event on the calendar
+                for IEEE members in India. It is a conglomeration of inventors,
+                professionals, entrepreneurs, visionaries and some of the
+                greatest minds in the country. By bringing together amazing
+                people from all walks of life, the AISYWC empowers its
+                participants to be inspired, collaborate and innovate for
+                tomorrow.</p>
+              </br>
+              <p></p> This year we will be conducting exciting events on
+                latest technologies for students coming from different
+                engineering backgrounds. This will help them connect to leaders
+                and eminent speakers of their respective streams. We will also
+                be catering to the needs of young professionals and senior
+                members by having a platform for them to share their
+                professional articles and views and help them get articulated to
+                the crowd attending these symposiums. We also have some events
+                in store for the women in engineering, a celebratory and an
+                inspirational session for the women who've made it successfully
+                and created benchmarks that we all look up to.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a>
+              <h2>
+                Where will AISYWC 2019 be held?
+              </h2>
+            </a>
+            <div class="content">
+              <p>
+                AISYWC 2019 is being hosted by CMR Group of Institutions in Hyderabad, India.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a>
+              <h2>What is the Congress theme?</h2>
+            </a>
+            <div class="content">
+              <p>
+                Acquire knowledge, Ideate to innovate, Strengthen skillset, Youngsters on a learning spree, Weaving networks to nurture, Collaborate to Change the world.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a>
+              <h2>Where can I find out what is happening at the Congress?</h2>
+            </a>
+            <div class="content">
+              <p>
+                See the program section on the AISYWC 2019 website http://aisywc.in/. A schedule of events will also be shared with you.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <a>
+              <h2>Which events can I attend?</h2>
+            </a>
+            <div class="content">
+              <p>
+                Anyone who has registered for AISYWC 2019 and has paid the Congress fee may attend all the events listed in schedule.
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="body">
+        <div
+          class="site-footer-wrapper gradient"
+          style="
+            background-image: radial-gradient(
+              at 882px 587px,
+              rgba(159, 0, 191, 0.9) 0px,
+              rgba(45, 100, 151, 0.8) 70%
+            );
+          "
+        >
+          <footer class="site-footer" id="contact">
+            <div
+              class="footer-cover-title flex justify-content-center align-items-center"
+            >
+             
+            </div>
+            <!-- .site-footer -->
+
+            <div class="footer-content-wrapper">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="entry-title">
+                     
+                      <div class="avtar hack-logo">
+                        <img src="logo.png" />
+                      </div>
+                    </div>
+                    <!-- entry-title -->
+
+                    <div class="entry-mail">
+                      <a href="#"></a>
+                    </div>
+                    <!-- .entry-mail -->
+
+                    <div class="footer-social">
+                      <ul
+                        class="flex justify-content-center align-items-center"
+                      >
+                        <li>
+                          <a
+                            target="_blank"
+                            href=""
+                            ><i class="fab fa-facebook-f"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            target="_blank"
+                            href=""
+                            ><i class="fab fa-twitter"></i
+                          ></a>
+                        </li>
+
+                        <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
+                        <!-- <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li> -->
+                        <li>
+                          <a
+                            target="_blank"
+                            href=""
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                    <!-- footer-social -->
+                  </div>
+                  <!-- col -->
+                </div>
+                <!-- row -->
+              </div>
+              <!-- container -->
+            </div>
+            <!-- footer-content-wrapper -->
+          </footer>
+          <!-- site-footer -->
+        </div>
+      </div>
+      <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
+
+      <script>
+        window.onload = function () {
+          $(".loader").css("visibility", "hidden");
+        };
+      </script>
+
+      <script>
+        const gradient = document.querySelector(".gradient");
+
+        function onMouseMove(event) {
+          gradient.style.backgroundImage =
+            "radial-gradient(at " +
+            event.clientX +
+            "px " +
+            event.clientY +
+            "px, rgba(159,0,191,.9) 0, rgba(45, 100, 151,0.8) 70%)";
+        }
+        document.addEventListener("mousemove", onMouseMove);
+      </script>
+      <script>
+        $(function () {
+          $(".second-button").on("click", function () {
+            $(".animated-icon2").toggleClass("open");
+          });
+        });
+      </script>
+      <script>
+        const items = document.querySelectorAll(".accordion a");
+
+        function toggleAccordion() {
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("active");
+        }
+
+        items.forEach((item) =>
+          item.addEventListener("click", toggleAccordion)
+        );
+      </script>
+      <script>
+        $(function () {
+          var navbar = $(".navbar");
+
+          $(window).scroll(function () {
+            if ($(window).scrollTop() <= 40) {
+              navbar.removeClass("navbar-scroll");
+            } else {
+              navbar.addClass("navbar-scroll");
+            }
+          });
+        });
+      </script>
+      <script>
+        $(function () {
+          $(".carousel").carousel({
+            interval: 5000,
+          });
+        });
+      </script>
+      <script src="jquery.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+      <script
+        type="text/javascript"
+        src="js/jquery.collapsible.min.js"
+      ></script>
+      <script type="text/javascript" src="js/swiper.min.js"></script>
+      <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+      <script type="text/javascript" src="js/circle-progress.min.js"></script>
+      <script type="text/javascript" src="js/jquery.countTo.min.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+      <script>
+        // var myIndex = 0;
+        // carousel();
+
+        // function carousel() {
+        //     var i;
+        //     var x = document.getElementsByClassName("mySlides");
+        //     for (i = 0; i < x.length; i++) {
+        //         x[i].style.display = "none";
+        //     }
+        //     myIndex++;
+        //     if (myIndex > x.length) { myIndex = 1 }
+        //     x[myIndex - 1].style.display = "block";
+        //     setTimeout(carousel, 2000); // Change image every 2 seconds
+        // }
+
+      </script>
+      <!-- aos JS -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </div>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- Bird animation -->
+    <script src="assets/js/three.r95.min.js"></script>
+    <script src="assets/js/vanta.birds.min.js"></script>
+    <script>
+      VANTA.BIRDS({
+        el: "#welcome",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        backgroundColor: 0x9072f,
+        color1: 0x5a00ff,
+        color2: 0xff69,
+        wingSpan: 27.0,
+        separation: 25.0,
+        alignment: 29.0,
+        quantity: 4.0,
+        backgroundAlpha: 0.87,
+      });
+    </script>
+  </body>
+</html>
