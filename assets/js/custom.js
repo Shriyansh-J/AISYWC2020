@@ -281,4 +281,18 @@
   });
 
   $("#back-to-top").tooltip("hide");
+
+  /* ----------------------------------------------------------- */
+  /*  Preload
+	/* ----------------------------------------------------------- */
+
+  function handlePreloader() {
+    if ($(".preload").length) {
+      $(".preload").delay(220).fadeOut(500);
+    }
+  }
+
+  $(window).on("load", function () {
+    handlePreloader();
+  });
 })(window.jQuery);
