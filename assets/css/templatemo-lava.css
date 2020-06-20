@@ -230,6 +230,12 @@ a.main-button {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 a.main-button:hover {
@@ -954,13 +960,20 @@ about
 
 @media (max-width: 992px) {
   .features-item {
-    margin-bottom: 45px;
+    margin-bottom: 35px;
   }
+}
+
+.features-icon {
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 .features-item {
   border-radius: 5px;
-  padding: 60px 30px;
+  padding: 40px 30px;
+  margin: 2rem;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -1014,7 +1027,7 @@ marquee .m4i{
 .features-item img {
   z-index: 10;
   position: relative;
-  max-width: 100%;
+  max-width: 230px;
   margin-bottom: 40px;
 }
 .features-item h3 {
@@ -1045,7 +1058,6 @@ marquee .m4i{
 }
 
 .features-item .main-button {
-  margin-top: 35px;
   display: inline-block;
 }
 
@@ -2180,9 +2192,22 @@ footer .social li a:hover {
 .features-item {
   height: 600px;
 }
-.bt2 {
-  transform: translateY(34px);
+
+@media (min-width: 992px) {
+  .features-item.all-two {
+    height: 520px;
+  }
 }
+
+/* @media (min-width: ) {
+  .features-item.all-three {
+    height: 6000px;
+  }
+} */
+
+/* .bt2 {
+  transform: translateY(34px);
+} */
 .bt3 {
   transform: translateY(16px);
 }
