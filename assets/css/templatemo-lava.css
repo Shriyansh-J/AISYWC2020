@@ -2190,12 +2190,12 @@ footer .social li a:hover {
   padding: 40px;
 }
 .features-item {
-  height: 600px;
+  height: 620px;
 }
 
-@media (min-width: 992px) {
-  .features-item.all-two {
-    height: 520px;
+@media (max-width: 768px) {
+  .features-item {
+    height: 530px;
   }
 }
 
