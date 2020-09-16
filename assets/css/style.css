@@ -595,4 +595,9 @@
     font-size: 60px !important;
   }
   }
+  .justified-para{
+    text-align: justify;
+    text-justify: inter-character;
+  }
   /* 
+  
