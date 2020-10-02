@@ -636,6 +636,10 @@ header
   color: #fba70b;
 }
 
+#my_subbar {
+  width: 250px;
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
