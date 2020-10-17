@@ -1208,6 +1208,247 @@ preloader
   }
 }
 
+/* Theme Section */
+.visit-tailor-area {
+  background: #eefffa;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .visit-tailor-area {
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  .visit-tailor-area {
+    display: block;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .visit-tailor-area {
+    display: block;
+  }
+}
+.visit-tailor-area .tailor-details {
+  width: 32%;
+  padding: 20px 20px 20px 60px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .visit-tailor-area .tailor-details {
+    width: 53%;
+    padding: 47px 20px 0px 50px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .visit-tailor-area .tailor-details {
+    width: 41%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .visit-tailor-area .tailor-details {
+    width: 100%;
+    padding: 50px 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .visit-tailor-area .tailor-details {
+    width: 100%;
+    padding: 51px 20px 6px 20px;
+  }
+}
+@media (max-width: 575px) {
+  .visit-tailor-area .tailor-details {
+    width: 100%;
+    padding: 51px 20px 6px 20px;
+  }
+}
+.visit-tailor-area .tailor-details span {
+  margin-bottom: 20px;
+  display: block;
+  color: #70d76a;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.visit-tailor-area .tailor-details h2 {
+  font-size: 55px;
+  display: block;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .visit-tailor-area .tailor-details h2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .visit-tailor-area .tailor-details h2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .visit-tailor-area .tailor-details h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .visit-tailor-area .tailor-details h2 {
+    font-size: 27px;
+  }
+}
+.visit-tailor-area .tailor-details p {
+  color: #425140;
+  line-height: 1.7;
+  font-size: 18px;
+}
+.visit-tailor-area .tailor-details p.pera-bottom {
+  margin-bottom: 41px;
+}
+@media (max-width: 575px) {
+  .visit-tailor-area .tailor-details p.pera-bottom {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .visit-tailor-area .tailor-details p.pera-bottom {
+    font-size: 13px;
+  }
+}
+.visit-tailor-area .tailor-details .footer-tittles h2 {
+  font-size: 57px;
+  font-weight: 400;
+  font-size: 45px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .visit-tailor-area .tailor-details .footer-tittles h2 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 575px) {
+  .visit-tailor-area .tailor-details .footer-tittles h2 {
+    font-size: 31px;
+  }
+}
+.visit-tailor-area .tailor-details .footer-tittles p {
+  padding-bottom: 22px;
+  color: #1d2547;
+  font-size: 16px;
+}
+.visit-tailor-area .tailor-offers {
+  background-image: url(../images/indiatheme.jpg);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  width: 55%;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.my-canvas-1 {
+  background-image: url(../images/theme_1.png);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 35em;
+}
+
+@media (max-width: 1200px) {
+  .my-canvas-1 {
+    width: 100%;
+    height: 30em;
+  }
+}
+
+@media (max-width: 980px) {
+  .my-canvas-1 {
+    width: 100%;
+    height: 25em;
+  }
+}
+
+@media (max-width: 730px) {
+  .my-canvas-1 {
+    width: 100%;
+    height: 22em;
+  }
+}
+
+@media (max-width: 620px) {
+  .my-canvas-1 {
+    width: 100%;
+    height: 16em;
+  }
+}
+
+.my-canvas-2 {
+  background-image: url(../images/theme_2.png);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 35em;
+}
+
+@media (max-width: 1200px) {
+  .my-canvas-2 {
+    width: 100%;
+    height: 30em;
+  }
+}
+
+@media (max-width: 980px) {
+  .my-canvas-2 {
+    width: 100%;
+    height: 28em;
+  }
+}
+
+@media (max-width: 730px) {
+  .my-canvas-2 {
+    width: 100%;
+    height: 22em;
+  }
+}
+
+@media (max-width: 620px) {
+  .my-canvas-2 {
+    width: 100%;
+    height: 16em;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .visit-tailor-area .tailor-offers {
+    height: 769px;
+    width: 61%;
+  }
+}
+@media (max-width: 575px) {
+  .visit-tailor-area .tailor-offers {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .visit-tailor-area .tailor-offers {
+    width: 100%;
+    height: 620px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .visit-tailor-area .tailor-offers {
+    width: 100%;
+    height: 500px;
+  }
+}
+
 /* :: 12.0 Speaker Area CSS */
 .our-speaker-area {
   position: relative;
@@ -1491,7 +1732,7 @@ preloader
   padding-bottom: 60px;
 }
 
-#venue .venue-info .contact-card {
+.contact-card {
   margin: 2rem;
   padding: 2rem;
   background-color: rgba(224, 86, 86, 0.8);
@@ -1512,7 +1753,6 @@ preloader
   font-size: 36px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 2rem;
 }
 
 @media (max-width: 574px) {
