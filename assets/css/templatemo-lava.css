@@ -1387,7 +1387,7 @@ preloader
 }
 
 .my-canvas-2 {
-  background-image: url(../images/theme_2.png);
+  background-image: url(../images/theme_3.png);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1421,6 +1421,13 @@ preloader
   .my-canvas-2 {
     width: 100%;
     height: 16em;
+  }
+}
+
+@media (max-width: 455px) {
+  .my-canvas-2 {
+    width: 100%;
+    height: 14em;
   }
 }
 
