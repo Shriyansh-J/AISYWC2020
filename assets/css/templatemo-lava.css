@@ -784,7 +784,7 @@ canvas .vanta-canvas {
   font-size: 19px !important;
 } */
 .welcome-area .header-text h1 {
-  font-size: 4vw;
+  font-size: 3.8vw;
   font-weight: 900;
   letter-spacing: 1px;
   margin-bottom: 15px;
@@ -812,7 +812,7 @@ canvas .vanta-canvas {
     margin-top: 170px;
   }
   .welcome-area .header-text h1 {
-    font-size: 3.6vw;
+    font-size: 3.2vw;
     margin-bottom: 20px;
   }
   .welcome-area .header-text p {
