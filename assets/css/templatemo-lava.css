@@ -639,6 +639,11 @@ header
 #my_subbar {
   width: 250px;
 }
+@media screen and (max-width: 991px) {
+  #my_subbar {
+    width: 100%;
+  }
+}
 
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
