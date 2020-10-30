@@ -26,8 +26,10 @@
 
     if (scroll >= box - header) {
       $("header").addClass("background-header");
+      $('.main-nav a img').attr('src','../assets/images/logos/AISYWC-2020-dark-removebg-preview.png');
     } else {
       $("header").removeClass("background-header");
+      $('.main-nav a img').attr('src','../assets/images/logos/AISYWC-2020-light-removebg-preview.png');
     }
   });
 
