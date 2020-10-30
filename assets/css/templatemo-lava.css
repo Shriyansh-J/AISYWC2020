@@ -13,7 +13,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 /* 
 ---------------------------------------------
 reset
@@ -84,7 +84,7 @@ figcaption {
 }
 
 .clearfix:after {
-  content: ".";
+  content: '.';
   display: block;
   clear: both;
   visibility: hidden;
@@ -127,7 +127,7 @@ hgroup {
 
 html,
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -168,7 +168,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
@@ -214,7 +214,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #f1556a;
+  background-color: #292f63;
 }
 
 a.main-button {
@@ -426,7 +426,7 @@ header
 
 .header-area .main-nav .nav li.submenu:after {
   font-family: FontAwesome;
-  content: "\f107";
+  content: '\f107';
   font-size: 12px;
   color: #7a7a7a;
   position: absolute;
@@ -481,7 +481,7 @@ header
   }
 }
 .header-area .main-nav .nav li.submenu ul li a:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0px;
   height: 40px;
@@ -569,7 +569,7 @@ header
 
 .header-area .main-nav .menu-trigger span:before,
 .header-area .main-nav .menu-trigger span:after {
-  content: "";
+  content: '';
 }
 
 .header-area .main-nav .menu-trigger span {
@@ -906,7 +906,7 @@ about
 */
 
 .about-wrap {
-  background: url("../images/aboutusbg.png");
+  background: url('../images/aboutusbg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1576,7 +1576,7 @@ preloader
 }
 .bg-gradient-overlay::after {
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   top: 0;
@@ -1595,7 +1595,7 @@ preloader
 }
 .bg-gradient-overlay-2::after {
   border-radius: 10px;
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1673,7 +1673,7 @@ preloader
 }
 .bg-gradient-overlay-2::after {
   border-radius: 10px;
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1736,7 +1736,7 @@ preloader
 }
 
 #venue .venue-info {
-  background: url("../images/cu.jpg") top center no-repeat;
+  background: url('../images/cu.jpg') top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -1752,7 +1752,7 @@ preloader
 }
 
 #venue .venue-info:before {
-  content: "";
+  content: '';
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
   bottom: 0;
@@ -1925,7 +1925,7 @@ preloader
   height: 120%;
   top: -10%;
   left: -10%;
-  content: "";
+  content: '';
   background: #df42b1;
   background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
   background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
@@ -1996,11 +1996,11 @@ preloader
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-title .arrow-d::before {
-  content: "-";
+  content: '-';
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-title .arrow-r::before {
-  content: "+";
+  content: '+';
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .active {
@@ -2055,7 +2055,7 @@ preloader
   margin-bottom: 0.5rem;
 }
 .accordion a {
-  font-family: "Hind", sans-serif;
+  font-family: 'Hind', sans-serif;
   color: white;
   position: relative;
   display: -webkit-box;
@@ -2106,7 +2106,7 @@ preloader
 .accordion a::after {
   /* font-family: "Ionicons";
   content: "\f218"; */
-  content: "+";
+  content: '+';
 
   position: absolute;
   float: right;
@@ -2130,7 +2130,7 @@ preloader
   /* font-family: "Ionicons";
   content: "\f209"; */
   /* image: url("https://img.icons8.com/ios/48/000000/add.png"); */
-  content: "-";
+  content: '-';
   color: #03b5d2;
   border: 1px solid #03b5d2;
   transition: all 0.1s linear;
@@ -2182,7 +2182,7 @@ preloader
 }
 
 .myfooter {
-  background-image: url("../images/pattern.jpg");
+  background-image: url('../images/pattern.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2490,7 +2490,7 @@ footer .social li a:hover {
   }
 }
 .timeline:before {
-  content: "";
+  content: '';
   width: 4px;
   height: 100%;
   background-color: var(--uiTimelineMainColor);
@@ -2526,7 +2526,7 @@ footer .social li a:hover {
 }
 
 .timeline__box:before {
-  content: "";
+  content: '';
   /* width: 20%; */
   width: 120px;
 
@@ -2708,5 +2708,5 @@ p:last-child {
 }
 
 .fa-angle-double-up:before {
-  content: "\f102";
+  content: '\f102';
 }
