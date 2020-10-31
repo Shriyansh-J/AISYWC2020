@@ -677,9 +677,7 @@ header
   .header-area .main-nav {
     overflow: hidden;
   }
-  .header-area .main-nav a img {
-    content: url(../images/logos/AISYWC-2020-dark-removebg-preview.png);
-  }
+
   .header-area .main-nav .nav {
     float: none;
     width: 100%;

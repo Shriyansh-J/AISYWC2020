@@ -23,8 +23,10 @@
     var scroll = $(window).scrollTop();
     var box = $(".header-text").height();
     var header = $("header").height();
+    var winSize= $(window).width();
+    console.log(winSize)
 
-    if (scroll >= box - header) {
+    if (scroll >= box - header||winSize<992) {
       $("header").addClass("background-header");
       $('.main-nav a img').attr('src','../assets/images/logos/AISYWC-2020-dark-removebg-preview.png');
     } else {
