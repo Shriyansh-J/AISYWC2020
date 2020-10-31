@@ -1771,7 +1771,7 @@ preloader
 .contact-card {
   margin: 2rem;
   padding: 1.2rem;
-  background-color: rgb(177, 213, 228);
+
   border-radius: 4px;
 }
 
@@ -2765,4 +2765,14 @@ p:last-child {
 
 .fa-angle-double-up:before {
   content: "\f102";
+}
+.fa-phone {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 100%;
+  border: solid 1px #111343;
+}
+.fa-phone:hover {
+  background-color: #111343;
+  color: white;
 }
