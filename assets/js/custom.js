@@ -19,6 +19,13 @@
     },
   });
 
+  var winSize= $(window).width();
+  if(winSize<992)
+  {
+    $('.main-nav a img').attr('src','./assets/images/logos/AISYWC-2020-dark-removebg-preview.png');
+  }
+
+
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     var box = $(".header-text").height();
@@ -28,10 +35,10 @@
 
     if (scroll >= box - header||winSize<992) {
       $("header").addClass("background-header");
-      $('.main-nav a img').attr('src','../assets/images/logos/AISYWC-2020-dark-removebg-preview.png');
+      $('.main-nav a img').attr('src','./assets/images/logos/AISYWC-2020-dark-removebg-preview.png');
     } else {
       $("header").removeClass("background-header");
-      $('.main-nav a img').attr('src','../assets/images/logos/AISYWC-2020-light-removebg-preview.png');
+      $('.main-nav a img').attr('src','./assets/images/logos/AISYWC-2020-light-removebg-preview.png');
     }
   });
 
