@@ -22,7 +22,7 @@
   var winSize= $(window).width();
   if(winSize<992)
   {
-    $('.main-nav a img').attr('src','https://github.com/Shriyansh-J/AISYWC2020/blob/master/assets/images/logos/AISYWC-2020-dark-removebg-preview.png');
+    $('.main-nav a img').attr('src','https://shriyansh-j.github.io/AISYWC2020/assets/images/logos/AISYWC-2020-dark-removebg-preview.png');
   }
 
 
@@ -35,10 +35,10 @@
 
     if (scroll >= box - header||winSize<992) {
       $("header").addClass("background-header");
-      $('.main-nav a img').attr('src','https://github.com/Shriyansh-J/AISYWC2020/blob/master/assets/images/logos/AISYWC-2020-dark-removebg-preview.png');
+      $('.main-nav a img').attr('src','https://shriyansh-j.github.io/AISYWC2020/assets/images/logos/AISYWC-2020-dark-removebg-preview.png');
     } else {
       $("header").removeClass("background-header");
-      $('.main-nav a img').attr('src','https://github.com/Shriyansh-J/AISYWC2020/blob/master/assets/images/logos/AISYWC-2020-light-removebg-preview.png');
+      $('.main-nav a img').attr('src','https://shriyansh-j.github.io/AISYWC2020/assets/images/logos/AISYWC-2020-light-removebg-preview.png');
     }
   });
 
