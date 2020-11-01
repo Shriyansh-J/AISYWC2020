@@ -69,7 +69,12 @@
 
 .curtain__content {
   align-items: center;
-  background: rgb(237, 235, 235);
+  background-color: black;
+  background-image: url("assets/images/india3.jpg");
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -82,5 +87,5 @@
 }
 
 .curtain__content img {
-  width: 60%;
+  width: 90%;
 }
