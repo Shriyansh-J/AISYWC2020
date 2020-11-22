@@ -2786,3 +2786,71 @@ p:last-child {
   background-color: #111343;
   color: white;
 }
+header {
+  margin-bottom: 10vh;
+}
+.header {
+  background-image: url(../images/reg.png);
+  background-attachment: fixed;
+  width: 100%;
+
+  height: 100vh;
+  margin-top: 12vh;
+  filter: blur(70%);
+}
+.header > .box {
+  background-color: #111343;
+  border-radius: 20px;
+  filter: opacity(50%);
+  z-index: 99;
+}
+.text-block > h1 {
+  z-index: 100;
+  padding: 5%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 5em;
+  color: white;
+}
+.text-block {
+  position: absolute;
+  bottom: 20vh;
+  right: 20%;
+  background-color: #111343de;
+  color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.ts-frame::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.ts-frame::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.ts-frame::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.text-secondary {
+  text-align: left;
+}
