@@ -2793,6 +2793,7 @@ header {
   background-image: url(../images/reg.png);
   width: 100%;
   background-attachment: fixed;
+  background-size: contain;
   height: 89vh;
   margin-top: 11vh;
 }
@@ -2853,10 +2854,16 @@ header {
   background-color: white;
   padding: 20px;
   border-radius: 20px;
+  margin: 10px;
 }
 .speaker-card > h4 {
+  text-align: center;
+}
+.speaker-card > p {
+  text-align: center;
 }
 .speaker-img {
+  padding: 10px;
   border-radius: 100%;
 }
 
