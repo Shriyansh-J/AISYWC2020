@@ -775,9 +775,12 @@ canvas .vanta-canvas {
   width: 100%;
   height: 100vh;
   /* min-height: 793px; */
-  background-image: url(../images/delhi.png);
+  background-image: url(../images/akash\ -\ Copy.jpeg);
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center left;
+  background-size: cover;
+  widows: 100%;
+  height: auto;
 }
 
 .welcome-area .header-text .left-text {
