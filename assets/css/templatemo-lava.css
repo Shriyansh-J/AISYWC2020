@@ -1746,11 +1746,11 @@ preloader
   border: none;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.5);
 }
 
 #buy-tickets .card:hover {
-  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.7);
 }
 
 #buy-tickets .card hr {
@@ -1759,7 +1759,7 @@ preloader
 
 #buy-tickets .card .card-title {
   margin: 10px 0;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 1px;
   font-weight: bold;
 }
