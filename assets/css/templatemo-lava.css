@@ -775,7 +775,7 @@ canvas .vanta-canvas {
   width: 100%;
   height: 100vh;
   /* min-height: 793px; */
-  background-image: url(../images/akash\ -\ Copy.jpeg);
+  background-image: url(../images/akash\-\Copy.jpeg);
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
@@ -2852,7 +2852,39 @@ header {
 }
 
 /*Speaker Section */
-
+.speaker-lg-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  margin: 30px 20%;
+}
+.sp-content {
+  padding: 20px;
+  color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .speaker-lg-card {
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+  }
+}
+.sp-name {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.sp-des {
+  font-weight: 400;
+  padding: 5px 0;
+}
+.sp-about {
+  color: #464646;
+}
 .speaker-card {
   background-color: white;
   padding: 20px;
@@ -2866,7 +2898,7 @@ header {
   text-align: center;
 }
 .speaker-img {
-  padding: 10px;
+  padding: 20px;
   border-radius: 100%;
 }
 
