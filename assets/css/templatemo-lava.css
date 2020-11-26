@@ -853,6 +853,7 @@ canvas .vanta-canvas {
   .welcome-area {
     background-image: url(../images/aakashm.png);
     background-size: cover;
+
     background-color: #111111;
   }
   .welcome-area .header-text h1 {
