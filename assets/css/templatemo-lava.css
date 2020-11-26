@@ -851,7 +851,8 @@ canvas .vanta-canvas {
     margin-top: 185px;
   }
   .welcome-area {
-    background-size: contain;
+    background-image: url(../images/aakashm.png);
+    background-size: cover;
     background-color: #111111;
   }
   .welcome-area .header-text h1 {
