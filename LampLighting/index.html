@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AISYWLC'20 Lamp Lighting</title>
+    <script src="https://simeydotme.github.io/jQuery-canvas-sparkles/bower_components/jquery/dist/jquery.min.js"></script>
+    
+  <script src="https://simeydotme.github.io/jQuery-canvas-sparkles/bower_components/requestAnimationFrame-polyfill/requestAnimationFrame.js"></script>
+  <script src="https://simeydotme.github.io/jQuery-canvas-sparkles/dist/jquery-canvas-sparkles.js"></script>
+  </head>
+  <body>
+    <style>
+      body{
+        font-family: 'Montserrat',sans-serif;
+        background-color: rgb(20, 20, 20);
+      }
+
+      .light{
+        background-color: rgba(28, 28, 124, 0.842);
+        color: white;
+       border: none;
+       border-radius: 50px;
+        padding: 10px 20px;
+        margin: 10px;
+      }
+    
+    </style>
+    <script type="text/javascript">
+      function chgimg(x)
+      {
+      i1.src=x;
+      }
+      $(document).ready(function() {
+
+$(".main").sparkle({
+    count:600,
+    color: ["#DAA520","#FFD700"],
+    speed: 0.4
+
+});
+
+
+});
+      </script>
+      </head>
+      <body>
+        <div class="main" style="text-align: center;">
+          <img src="./AISYWC-2020-light-removebg-preview.png" width="250px" alt="">
+   <h1 style="color: white;">AISYWLC 2020 LAMP LIGHTING CEREMONY</h1>
+     
+      <img id="i1" src="lamp-1.png"  /><br>
+      <b style="color: white;">CLICK THE BUTTON TO LIGHT THE KUTHUVILAKKU</b><br><br>
+      <input type="button" value="Prof. Prerna Gaur" class="light" onclick="chgimg('guest-1.png')" />
+      <input type="button" value="Prof. S. N. Singh" class="light" onclick="chgimg('guest-2.png')" />
+      <input type="button" value="Dr. Madhu Chitkara" class="light" onclick="chgimg('guest-3.png')" />
+      <input type="button" value="Shri H. L. Bajaj" class="light" onclick="chgimg('guest-4.png')" />
+      <input type="button" value="Mr. Sanjeev Bikhchandani" class="light" onclick="chgimg('guest-5.png')" />
+      <input type="button" value="Prof. Akinori Nishihara" class="light" onclick="chgimg('guest-6.png')" />
+      <input type="button" value="Chief Guest7" class="light" onclick="chgimg('guest-7.png')" />
+      <input type="button" value="Chief Guest8" class="light" onclick="chgimg('guest-8.png')" /><br/>
+      <input type="reset" value="RESET" class="light"onclick="chgimg('./lamp-1.png')" />
+   
+    </div>
+  
+  </body>
+
+</html>
