@@ -3041,6 +3041,11 @@ header {
     text-align: center;
   }
 }
+@media (min-width: 800px) {
+  .schedule {
+    margin: 100px 20%;
+  }
+}
 .sp-name {
   font-size: 1.5em;
   font-weight: 600;
